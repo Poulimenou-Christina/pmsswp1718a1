@@ -1,4 +1,33 @@
-# Το αρχείο Turtle του λεξιλογίου RDFS που περιγράφει
-# τις κλάσεις και τις ιδιότητες του ωρολογίου προγράμματος.
+@prefix voc: <http://dilab77.ionio.gr/swp/c17poul/vocab#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix res: <http://dilab77.ionio.gr/swp/c17poul/resource/>.
 
+voc:Teacher rdf:type rdfs:Class;
+            rdfs:subClassOf foaf:Person.
+voc:Lecture a rdfs:Class.
+voc:Room a rdfs:Class.
+voc:Course a rdfs:Class.
+
+voc:Ημέρα a rdf:Property.
+voc:Εναρξη a rdf:Property.
+voc:Λήξη a rdf:Property.
+voc:Καθηγητης a rdf:Property.
+voc:Μαθημα a rdf:Property.
+voc:Αιθουσα a rdf:Property.
+
+voc:Ημέρα rdfs:domain voc:Lecture;
+          rdfs:range xsd:Literal.
+voc:Εναρξη rdfs:domain voc:Lecture;
+           rdfs:range xsd:time.
+voc:Λήξη rdfs:domain voc:Lecture;
+         rdfs:range xsd:time.
+voc:Καθηγητης rdfs:domain voc:Lecture;
+              rdfs:range voc:Teacher.
+voc:Μαθημα rdfs:domain voc:Lecture;
+           rdfs:range voc:Course.
+voc:Αιθουσα rdfs:domain voc:Lecture;
+            rdfs:range voc:Room.
 
