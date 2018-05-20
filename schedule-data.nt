@@ -1,4 +1,52 @@
-# Το αρχείο N-Triples με τα δεδομένα του ωρολογίου προγράμματος
-# και τις δηλώσεις rdf:type για κάθε οντότητα.
+_:1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Lecture>.
+_:1 <http://dilab77.ionio.gr/swp/c17poul/vocab#Ημέρα> "Δευτερα".
+_:1 <http://dilab77.ionio.gr/swp/c17poul/vocab#Εναρξη> "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:1 <http://dilab77.ionio.gr/swp/c17poul/vocab#Λήξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/κομμιανος> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Teacher>.
+_:1 <http://dilab77.ionio.gr/swp/c17poul/vocab#Καθηγητης> <http://dilab77.ionio.gr/swp/c17poul/resource/κομμιανος>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/Ψυχαγωγικο%20Λογισμικο> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Course>.
+_:1 <http://dilab77.ionio.gr/swp/c17poul/vocab#Μαθημα> <http://dilab77.ionio.gr/swp/c17poul/resource/Ψυχαγωγικο%20Λογισμικο>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/Αρεταιος> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Room>.
+_:1 <http://dilab77.ionio.gr/swp/c17poul/vocab#Αιθουσα> <http://dilab77.ionio.gr/swp/c17poul/resource/Αρεταιος>.
+_:2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Lecture>.
+_:2 <http://dilab77.ionio.gr/swp/c17poul/vocab#Ημέρα> "Τριτη".
+_:2 <http://dilab77.ionio.gr/swp/c17poul/vocab#Εναρξη> "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:2 <http://dilab77.ionio.gr/swp/c17poul/vocab#Λήξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/Στεφανιδακης> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Teacher>.
+_:2 <http://dilab77.ionio.gr/swp/c17poul/vocab#Καθηγητης> <http://dilab77.ionio.gr/swp/c17poul/resource/Στεφανιδακης>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/Προγ.Σημ.Ιστου> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Course>.
+_:2 <http://dilab77.ionio.gr/swp/c17poul/vocab#Μαθημα> <http://dilab77.ionio.gr/swp/c17poul/resource/Προγ.Σημ.Ιστου>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/Αρεταιος> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Room>.
+_:2 <http://dilab77.ionio.gr/swp/c17poul/vocab#Αιθουσα> <http://dilab77.ionio.gr/swp/c17poul/resource/Αρεταιος>.
+_:3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Lecture>.
+_:3 <http://dilab77.ionio.gr/swp/c17poul/vocab#Ημέρα> "Τριτη".
+_:3 <http://dilab77.ionio.gr/swp/c17poul/vocab#Εναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:3 <http://dilab77.ionio.gr/swp/c17poul/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/Βλαμμος> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Teacher>.
+_:3 <http://dilab77.ionio.gr/swp/c17poul/vocab#Καθηγητης> <http://dilab77.ionio.gr/swp/c17poul/resource/Βλαμμος>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/Βιοπληροφορικη> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Course>.
+_:3 <http://dilab77.ionio.gr/swp/c17poul/vocab#Μαθημα> <http://dilab77.ionio.gr/swp/c17poul/resource/Βιοπληροφορικη>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Room>.
+_:3 <http://dilab77.ionio.gr/swp/c17poul/vocab#Αιθουσα> <http://dilab77.ionio.gr/swp/c17poul/resource/2>.
+_:4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Lecture>.
+_:4 <http://dilab77.ionio.gr/swp/c17poul/vocab#Ημέρα> "Τεταρτη".
+_:4 <http://dilab77.ionio.gr/swp/c17poul/vocab#Εναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:4 <http://dilab77.ionio.gr/swp/c17poul/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/Αυλωνιτης> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Teacher>.
+_:4 <http://dilab77.ionio.gr/swp/c17poul/vocab#Καθηγητης> <http://dilab77.ionio.gr/swp/c17poul/resource/Αυλωνιτης>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/Μοντελοποιηση> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Course>.
+_:4 <http://dilab77.ionio.gr/swp/c17poul/vocab#Μαθημα> <http://dilab77.ionio.gr/swp/c17poul/resource/Μοντελοποιηση>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/Αρεταιος> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Room>.
+_:4 <http://dilab77.ionio.gr/swp/c17poul/vocab#Αιθουσα> <http://dilab77.ionio.gr/swp/c17poul/resource/Αρεταιος>.
+_:5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Lecture>.
+_:5 <http://dilab77.ionio.gr/swp/c17poul/vocab#Ημέρα> "Πεμπτη".
+_:5 <http://dilab77.ionio.gr/swp/c17poul/vocab#Εναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:5 <http://dilab77.ionio.gr/swp/c17poul/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/Μυλωνας> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Teacher>.
+_:5 <http://dilab77.ionio.gr/swp/c17poul/vocab#Καθηγητης> <http://dilab77.ionio.gr/swp/c17poul/resource/Μυλωνας>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/Εξορυξη> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Course>.
+_:5 <http://dilab77.ionio.gr/swp/c17poul/vocab#Μαθημα> <http://dilab77.ionio.gr/swp/c17poul/resource/Εξορυξη>.
+<http://dilab77.ionio.gr/swp/c17poul/resource/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17poul/vocab#Room>.
+_:5 <http://dilab77.ionio.gr/swp/c17poul/vocab#Αιθουσα> <http://dilab77.ionio.gr/swp/c17poul/resource/2>.
 
 
